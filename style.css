@@ -154,10 +154,13 @@ html {
   display: flex;
   background-image: url("./images/cat-han-_LLVmsaV9sw-unsplash-min.jpg");
   background-size: cover;
-  height: 100vh;
-  min-height: 500px;
+  width: 100vw;
+  min-height: 100vh;
   font-family: "Ubuntu", sans-serif;
-  color: #fff;
+  color: blue;
+  
+   background-repeat: no-repeat;
+   background-position: center center;
 }
 
 .home .max-width {
@@ -245,6 +248,9 @@ html {
 
 .about .about-content .left {
   width: 45%;
+  max-width:100%;
+  display:block;
+  height:auto;
 }
 
 .about .about-content .left img {
@@ -305,6 +311,8 @@ html {
 }
 .services .services-content {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .services .services-content .youtube {
   background-color: rgba(0, 0, 255, 0.479);
@@ -342,22 +350,29 @@ html {
   transition: all 0.3s ease;
 }
 .services .services-content .website {
-  padding:20px;
+  padding:35px;
   box-shadow: 4px 4px 9px rgba(0, 0, 0);
   border: 1px solid rgba(0, 0, 0);
   border-radius: 6px;
-  margin: 10px;
+  /* margin: 10px; */
   width:100%;
 
- 
- 
+ max-width:100%;
+  display:block;
+  height:auto;
+
+ height: fit-content;
+  width:fit-content
+
 }
 .services .services-content .website h3{
   padding:10px;
 }
 .services .services-content .website img{
-  width:auto;
-  height: 50%;
+  height: 100px;
+
+
+ 
 }
 
 /* contact section styling */
