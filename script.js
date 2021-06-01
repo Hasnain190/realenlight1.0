@@ -15,12 +15,11 @@ $(document).ready(function () {
   // typing text animation script
   var typed = new Typed(".typing", {
     strings: [
-      "Muslim",
-      "Hafiz",
-      "Student",
-      "Doctor",
+      
       "Developer",
       "Freelancer",
+      "youtuber",
+      "friend"
     ],
     typeSpeed: 100,
     backSpeed: 60,
