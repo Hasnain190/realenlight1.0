@@ -15,8 +15,9 @@ $(document).ready(function () {
   // typing text animation script
   var typed = new Typed(".typing", {
     strings: [
-      
-      "Developer",
+
+      "Medical Student",
+      "Hafiz",
       "Freelancer",
       "youtuber",
       "friend"
