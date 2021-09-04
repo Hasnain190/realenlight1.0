@@ -16,11 +16,12 @@ $(document).ready(function () {
   var typed = new Typed(".typing", {
     strings: [
 
-      "Medical Student",
-      "Hafiz",
+    
+     
       "Freelancer",
-      "youtuber",
-      "friend"
+      "Youtuber",
+      "Friend",
+      "Pakistani"
     ],
     typeSpeed: 100,
     backSpeed: 60,
