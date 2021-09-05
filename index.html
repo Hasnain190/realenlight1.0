@@ -23,6 +23,18 @@
 
 
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+  
+//UET tag goes here.
+
+//Copy and paste the event tag right after UET tag.
+    <script>
+        function uet_report_conversion()
+        {
+            window.uetq = window.uetq || [];
+            window.uetq.push('event', 'click', {"event_label":"Get in Touch","event_category":"button"});
+        }
+    </script>
 </head>
 
 <body>
@@ -182,7 +194,7 @@
             <p class="lh-lg">
               We also know how to give life to your online business in online world.
             </p>
-            <button id='myBtn3' type="button" class="rounded-pill btn-rounded border-primary">
+            <button  onclick="uet_report_conversion()" id='myBtn3' type="button" class="rounded-pill btn-rounded border-primary">
               Get in Touch
 
               <span><i class="fas fa-arrow-right"></i></span>
