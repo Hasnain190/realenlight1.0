@@ -27,33 +27,38 @@ $(document).ready(function () {
     backSpeed: 60,
     loop: true,
   });
-  var form = document.getElementById("my-form");
 
-  async function handleSubmit(event) {
-    event.preventDefault();
-    var status = document.getElementById("status");
-    var data = new FormData(event.target);
-    fetch(event.target.action, {
-      method: form.method,
-      body: data,
-      headers: {
-        Accept: "application/json",
-      },
-    })
-      .then((response) => {
-        status.innerHTML = "Thanks for your submission!";
-        form.reset();
-      })
-      .catch((error) => {
-        status.innerHTML = "Oops! There was a problem submitting your form";
-      });
-  }
-  form.addEventListener("submit", handleSubmit);
+
+  // // for form
+  // var form = document.getElementById("my-form");
+
+  // async function handleSubmit(event) {
+  //   event.preventDefault();
+  //   var status = document.getElementById("status");
+  //   var data = new FormData(event.target);
+  //   fetch(event.target.action, {
+  //     method: form.method,
+  //     body: data,
+  //     headers: {
+  //       Accept: "application/json",
+  //     },
+  //   })
+  //     .then((response) => {
+  //       status.innerHTML = "Thanks for your submission!";
+  //       form.reset();
+  //     })
+  //     .catch((error) => {
+  //       status.innerHTML = "Oops! There was a problem submitting your form";
+  //     });
+  // }
+  // form.addEventListener("submit", handleSubmit);
 
   //slide up script
   $(".scroll-up-btn").click(function () {
     $("html").animate({ scrollTop: 0 });
   });
+
+
   // toggle menu/navbar script
   $(".menu-btn").click(function () {
     $(".navbar .menu").toggleClass("active");

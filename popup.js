@@ -1,15 +1,30 @@
 // Get the modal
-var modal = document.getElementById("myModal");
+let modal = document.getElementById("myModal");
 
 // Get the button that opens the modal
-var btn = document.getElementById("myBtn");
+let btn = document.getElementById("button");
 
+
+let button1 = document.getElementById('myBtn1')
+let button2 = document.getElementById('myBtn2')
+let button3 = document.getElementById('myBtn3')
+let button4 = document.getElementById('myBtn4')
 // Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+let span = document.getElementsByClassName("close")[0];
 
 // When the user clicks the button, open the modal 
 btn.onclick = function() {
   modal.style.display = "block";
+}
+button1.onclick = function(){
+  modal.style.display = "block";
+}
+button2.onclick = function(){
+  modal.style.display = "block";
+}
+button3.onclick = function(){
+  modal.style.display = "block";
+  
 }
 
 // When the user clicks on <span> (x), close the modal
@@ -25,13 +40,13 @@ window.onclick = function(event) {
 }
 
 
-var slideIndex = 0;
+let slideIndex = 0;
 showSlides();
 
 function showSlides() {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";  
   }

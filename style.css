@@ -24,7 +24,6 @@ html {
   overflow: auto; /* Enable scroll if needed */
   background-color: rgb(0, 0, 0); /* Fallback color */
   background-color: rgba(0, 0, 0, 0.4);
-  animation: popup 1s linear  
 }
 @keyframes popup {
   0%{
@@ -45,6 +44,7 @@ html {
   width: 80%;
   color: #000;
   border-radius: 10px;
+  animation: popup 300ms   
 }
 .simple-list li {
   padding: 10px;
@@ -685,5 +685,29 @@ footer i {
     overflow-x:hidden;
     } */
 }
+/* FONTAWESOME CSS */
 
+.fas
+ {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+.fas {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+
+
+.fa-long-arrow-alt-left:before {
+  content: "f30a";
+}
+
+.fa-long-arrow-alt-right:before {
+  content: "f30b";
+}
 
