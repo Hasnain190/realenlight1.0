@@ -171,7 +171,7 @@ html {
   width: 100vw;
   min-height: 100vh;
   font-family: "Ubuntu", sans-serif;
-  color: #9926f0;
+  /* color: #9926f0; */
   
    background-repeat: no-repeat;
    background-position: center center;
