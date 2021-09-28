@@ -18,10 +18,7 @@ $(document).ready(function () {
 
     
      
-      "Freelancer",
-      "Youtuber",
-      "Friend",
-      "Pakistani"
+     'Online world','proffessional level','next level'
     ],
     typeSpeed: 100,
     backSpeed: 60,
