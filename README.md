@@ -2,4 +2,4 @@
 
 thus a small.website 
 
-[realenlight.netlify.app](check out)
+[check it out here](www.realenlight.netlify.app)
