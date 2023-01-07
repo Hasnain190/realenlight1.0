@@ -592,8 +592,12 @@ section .title::after {
   font-size: 1.6rem;
   color: #eee;
   text-decoration: none;
+  transition: all 0.1s ease;
 }
-
+.footer__link:hover {
+  color:#eee;
+  font-size: 2rem;
+}
 .footer__logo {
   height: 5rem;
   display: block;
