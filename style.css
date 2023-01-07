@@ -71,7 +71,7 @@ html {
 .close {
   color: #aaaaaa;
   float: right;
-  font-size: 28px;
+  font-size: 3rem;
   font-weight: bold;
 }
 
@@ -166,21 +166,22 @@ html {
 }
 .home {
   display: flex;
-  background-image: url("./images/make website-min.jpg");
+  background-image: url("./images/Frame.png");
+  background-blend-mode: darken;
   background-size: cover;
   width: 100vw;
   min-height: 100vh;
   font-family: "Ubuntu", sans-serif;
   /* color: #9926f0; */
-  color:white;
+  color:rgb(0, 0, 0);
   
    background-repeat: no-repeat;
    background-position: center center;
+   background-color: rgba(255, 255, 255, 0.5);  
 }
 
 .home .max-width {
   margin: auto 0 auto 40px;
-  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .home .home-content .text-1 {
@@ -233,7 +234,7 @@ html {
 
   font-family: "Ubuntu", sans-serif;
 }
-.about .title::before {
+/* .about .title::before {
   content: "";
   position: absolute;
   bottom: 0px;
@@ -242,9 +243,9 @@ html {
   height: 3px;
   background: #111;
   transform: translateX(-50%);
-}
+} */
 
-.about .title::after {
+/* .about .title::after {
   content: "who am i";
   position: absolute;
   bottom: -17px;
@@ -254,7 +255,7 @@ html {
   padding: 5px;
   background: rgb(255, 255, 255);
   transform: translateX(-50%);
-}
+} */
 .about .about-content {
   display: flex;
   align-items: center;
@@ -263,7 +264,7 @@ html {
 }
 
 .about .about-content .left {
-  width: 45%;
+  width: auto;
   max-width:100%;
   display:block;
   height:auto;
@@ -526,7 +527,7 @@ section {
 .skills,
 .teams,
 .contact,
-footer {
+.footer {
   font-family: "Poppins", sans-serif;
 }
 .about .about-content,
@@ -567,18 +568,49 @@ section .title::after {
   background: #fff;
   transform: translateX(-50%);
 }
-footer {
-  height: 100px;
-  background-color: #9926f0;
-  width: 100%;
+
+/* FOOTER */
+.footer {
+  padding: 5rem 3rem;
+  background-color: #37383d;
 }
-footer i {
-  font-size: 2em;
-  color: #fff;
-  margin: 10px;
-  justify-content: space-between;
+
+.footer__nav {
+  list-style: none;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 5rem;
 }
+
+.footer__item {
+  margin-right: 4rem;
+  margin:1rem;
+}
+
+.footer__link {
+  font-size: 1.6rem;
+  color: #eee;
+  text-decoration: none;
+}
+
+.footer__logo {
+  height: 5rem;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+}
+
+.footer__copyright {
+  font-size: 1.4rem;
+  color: #aaa;
+  text-align: center;
+}
+
+.footer__copyright .footer__link {
+  font-size: 1.4rem;
+}
+
 /* Responsive Media Qwery */
 @media (max-width: 1300px) {
   .home .max-width {
