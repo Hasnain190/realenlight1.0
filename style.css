@@ -105,7 +105,7 @@ html {
   pointer-events: auto;
 }
 .navbar {
-  position: fixed;
+  /* position: fixed; */
   width: 100%;
   z-index: 999;
   padding: 30px 0;
@@ -116,6 +116,7 @@ html {
   padding: 10px 0;
 
   background-color: #9926f0;
+  position: fixed;
 }
 .navbar.sticky .logo a span {
   color: white;
@@ -164,6 +165,11 @@ html {
   cursor: pointer;
   display: none;
 }
+
+
+
+
+/* Home Section*/
 .home {
   display: flex;
   background-image: url("./images/Frame.png");
