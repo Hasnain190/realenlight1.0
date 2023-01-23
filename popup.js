@@ -11,6 +11,7 @@ let button3 = document.getElementById('myBtn3')
 
 // Get the <span> element that closes the modal
 let closeBtn = document.getElementById("closeBtn");
+
 // When the user clicks the button, open the modal 
 
 [btn, button1, button2, button3].forEach(b => {
