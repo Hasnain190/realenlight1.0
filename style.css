@@ -38,16 +38,17 @@ html {
 	}
 }
 /* Modal Content */
-.modal-content {
+.contact-modal {
 	background-color: #fefefe;
 	margin: auto;
 	padding: 20px;
 	border: 1px solid #888;
-	width: 80%;
+	width: fit-content;
 	color: #000;
 	border-radius: 10px;
 	animation: popup 300ms;
 }
+
 .simple-list li {
 	padding: 10px;
 	list-style: none;
@@ -57,12 +58,12 @@ html {
 .simple-list li a {
 	display: flex;
 	align-items: center;
-	justify-content: space-evenly;
+	justify-content: center;
+	column-gap: 10px;
 }
 
 .list-icons {
 	height: 40px;
-	width: auto;
 }
 /* The Close Button */
 .close {
