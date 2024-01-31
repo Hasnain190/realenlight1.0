@@ -172,7 +172,7 @@ html {
 	background-image: url("./images/Frame.png");
 	background-blend-mode: darken;
 	background-size: cover;
-	width: 100vw;
+	/* width: 100vw; */
 	min-height: 100vh;
 	font-family: "Ubuntu", sans-serif;
 	/* color: #9926f0; */
@@ -631,6 +631,8 @@ section .title::after {
 	.menu-btn {
 		display: block;
 		z-index: 999;
+		/* margin-left: 2rem; */
+		padding-left: 1em;
 	}
 
 	.navbar .menu {
